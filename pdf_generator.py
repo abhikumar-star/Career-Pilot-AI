@@ -1,20 +1,3 @@
-# from reportlab.platypus import SimpleDocTemplate, Paragraph
-# from reportlab.lib.styles import getSampleStyleSheet
-
-# def create_pdf(report_text, filename="Career_Report.pdf"):
-#     doc = SimpleDocTemplate(filename)
-#     style = getSampleStyleSheet()
-
-#     story = []
-
-#     story.append(Paragraph("<b>CareerPilot AI - Career Report</b>", style["Title"]))
-
-#     for line in report_text.split("\n"):
-#         story.append(Paragraph(line, style["BodyText"]))
-
-#         doc.build(story)
-
-#         return filename
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.enums import TA_CENTER
